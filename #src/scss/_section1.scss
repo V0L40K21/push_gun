@@ -1,0 +1,19 @@
+.section1{
+    background: #5BA4D7;
+    &__content{
+        display: flex;
+        img{
+            position: absolute;
+            right: 0;
+            top: 240px;
+        }
+        &__slider{
+            padding-bottom: 340px;
+            width: 730px;
+            color: #fff;
+            h1{
+                color: #fff;
+            }
+        }
+    }
+}
