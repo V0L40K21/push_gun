@@ -1,0 +1,27 @@
+.section4{
+    text-align: center;
+    padding: 110px 0;
+    margin: 0;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 800px;
+        @media(max-width: 992px){
+            width: 80%;
+        }
+        @media(max-width: 768px){
+            flex-direction: column;
+        }
+        margin: 0 auto;
+        &__count{
+            font-family: Gilroy;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 146px;
+            line-height: 177px;
+            color: #5BA4D7;
+            margin: 0;
+        }
+    }
+}

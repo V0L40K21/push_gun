@@ -8,6 +8,7 @@ h1{
     font-size: 64px;
     line-height: 77px;
     color: #2C2C2C;
+    text-align: center;
     @media (max-width: 576px){
         font-size: 48px;
     }
@@ -23,6 +24,7 @@ h2{
     font-size: 32px;
     line-height: 150%;
     color: #2C2C2C;
+    text-align: center;
 }
 h3{
     font-family: Gilroy;
@@ -32,6 +34,7 @@ h3{
     line-height: 160%;
     letter-spacing: 0.25px;
     color: #2C2C2C;
+    text-align: center;
 }
 body{
     font-family: Gilroy;
@@ -42,6 +45,12 @@ body{
     color: #2C2C2C;
     margin: 0;
     padding: 0;
+}
+input{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
 }
 .container{
     width: 1110px;
@@ -71,3 +80,6 @@ body{
 @import "header";
 @import "section1";
 @import "section2";
+@import "section3";
+@import "section4";
+@import "section5";

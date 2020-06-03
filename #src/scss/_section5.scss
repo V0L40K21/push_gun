@@ -1,0 +1,28 @@
+.section5{
+    text-align: center;
+    padding-bottom: 230px;
+    &__title{
+        margin: 0;
+        margin-bottom: 60px;
+    }
+    &__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        &__item{
+            width: 283px;
+            height: 115px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &_bb{
+                border-bottom: 1px solid #E4E3E8;
+            }
+            &_br{
+                border-right: 1px solid #E4E3E8;
+            }
+        }
+    }
+}
