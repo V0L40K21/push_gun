@@ -2,17 +2,32 @@
     background: #5BA4D7;
     padding-top: 55px;
     padding-bottom: 210px;
+    @media (max-width: 1400px){
+        padding-bottom: 110px;
+    }
+    @media(max-width: 1200px){
+        padding-bottom: 20px;
+    }
+    @media(max-width: 992px){
+        padding-bottom: 20px;
+    }
     img {
         width: 208px;
         height: 16px;
+        @media(max-width: 992px){
+            width: 145px;
+        }
     }
     &__wrapper{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        ul {
+        &__menu {
             display: flex;
             list-style: none;
+            @media (max-width: 768px){
+                display: none;
+            }
             li {
                 margin-right: 56px;
                 font-size: 14px;
@@ -29,6 +44,9 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            @media (max-width: 768px){
+                display: none;
+            }
             &_enter{
                 margin-right: 36px;
                 a{

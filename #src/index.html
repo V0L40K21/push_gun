@@ -10,16 +10,14 @@
     <header class="header">
         <div class="container container_wide">
             <div class="header__wrapper">
-                <a href="">
+                <a href="#">
                     <img src="img/logo.png" alt="logo">
                 </a>
-                <nav>
-                    <ul>
-                        <li><a href="#">О нас</a></li>
-                        <li><a href="#">Цена</a></li>
-                        <li><a href="#">FAQ</a></li>
-                    </ul>
-                </nav>
+                <ul class="header__wrapper__menu">
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Цена</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
                 <div class="header__wrapper__links">
                     <div class="header__wrapper__links_enter">
                         <a href="#">Войти</a>
@@ -27,6 +25,20 @@
                     <div class="header__wrapper__links_reg">
                         <a href="#">Регистрация</a>
                     </div>
+                </div>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>
+                    <ul class="menu__box">
+                      <li><a class="menu__item" href="#">О нас</a></li>
+                      <li><a class="menu__item" href="#">Цена</a></li>
+                      <li><a class="menu__item" href="#">FAQ</a></li>
+                      <li><hr></li>
+                      <li><a class="menu__item" href="#">Войти</a></li>
+                      <li><a class="menu__item" href="#">Регистрация</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -44,11 +56,37 @@
                         <p>Общайся с клиентами прямо со своего браузера с помощью push-уведомлений</p>
                     </div>
                 </div>
-                <img src="img/hero.png" alt="push">
+                <img src="img/hero.png" alt="push" class="sec1_img">
+            </div>
+            <!-- <a href="#" class="btn_dwn"><img src="img/btn_down.png" alt="down"></a> -->
+        </div>
+    </section>
+    <section class="section2">
+        <div class="container">
+            <h2 class="section2__title">Возможности и преимущества</h2>
+            <p class="section2__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            <div class="section2__itemsWrapper">
+                <div class="section2__itemsWrapper__item">
+                    <img src="img/item1.png" alt="" class="section2__itemsWrapper__item__img">
+                    <h3 class="section2__itemsWrapper__item__title">Предложение подписки</h3>
+                </div>
+                <div class="section2__itemsWrapper__item">
+                    <img src="img/item2.png" alt="" class="section2__itemsWrapper__item__img">
+                    <h3 class="section2__itemsWrapper__item__title">Уведомление о скидках и распродажах</h3>
+                </div>
+            
+            
+                <div class="section2__itemsWrapper__item">
+                    <img src="img/item3.png" alt="" class="section2__itemsWrapper__item__img">
+                    <h3 class="section2__itemsWrapper__item__title">Напоминания о брошенной корзине</h3>
+                </div>
+                <div class="section2__itemsWrapper__item">
+                    <img src="img/item4.png" alt="" class="section2__itemsWrapper__item__img">
+                    <h3 class="section2__itemsWrapper__item__title">Продуктовый маркетинг</h3>
+                </div>
             </div>
         </div>
     </section>
-
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
